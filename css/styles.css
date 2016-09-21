@@ -178,7 +178,8 @@ h2 {
   background-position: center;
   /*padding: 4em;*/
   color: #fff;
-  height: 100vh;
+  height: 725px;
+  /*height: 100vh;*/
 }
 .mission .col-sm-6 {
   padding: 0;
@@ -482,5 +483,11 @@ form select {
   nav .container-fluid {
     width: 1375px;
     margin: 0 auto;
+  }
+  .forest {
+    height: 932px;
+  }
+  .forest .potential {
+    margin: 510px auto 0 auto;
   }
 }
