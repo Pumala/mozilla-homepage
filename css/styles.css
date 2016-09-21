@@ -372,6 +372,23 @@ form select {
             MEDIA QUERIES
 ******************************************/
 @media screen and (max-width: 768px) {
+  div.navbar-header {
+    text-align: center;
+  }
+  nav.navbar .container-fluid {
+    width: 100%;
+  }
+  .navbar-header .navbar-toggle {
+    position: absolute;
+    float: none;
+    left: 10px;
+  }
+  .navbar-header .navbar-brand {
+    float: none;
+  }
+  .navbar-header .navbar-brand > img {
+    display: inline-block;
+  }
   #home h1 {
     font-size: 2.5em;
   }
@@ -424,6 +441,9 @@ form select {
   }
 }
 @media (max-width: 1000px) {
+  nav .container-fluid {
+    width: 700px;
+  }
   h2 {
     font-size: 2.1em;
   }
@@ -445,6 +465,9 @@ form select {
   .footer-content {
     width: 1000px;
     margin: 0 auto;
+  }
+  nav .container-fluid {
+    width: 975px;
   }
 }
 
