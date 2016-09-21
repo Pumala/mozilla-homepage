@@ -1,0 +1,453 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+.clear:before, .clear:after {
+  content: " ";
+  display: table;
+}
+.clear:after {
+  clear: both;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav.navbar.navbar-default {
+  border: none;
+  border-radius: 0;
+}
+.navbar {
+  background-color: #D93A33;
+  margin: 0;
+}
+.navbar-default a.navbar-brand {
+  padding: 0;
+}
+/* navbar-brand img */
+nav.navbar-default .navbar-brand > img {
+  height: inherit;
+  padding: 3px;
+}
+/* target the parent of the first 3 navbar links */
+nav.navbar-default .navbar-nav > li.white-parents {
+  padding-top: 15px;
+}
+/* target only first 3 navbar links  */
+nav.navbar-default .navbar-nav > li.white-parents > a {
+  border-right: 1px solid #fff;
+  padding: 0 15px;
+}
+/* navbar links only w/o active */
+nav.navbar-default .navbar-nav > li > a {
+  font-weight: 300;
+  /*border-right: 1px solid #fff;*/
+}
+/* navbar links including active link  */
+nav.navbar-default .navbar-nav > li > a,
+ul.nav.navbar-nav.navbar-right li.active a {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+/* only active link  */
+ul.nav.navbar-nav.navbar-right li.active a {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: 500;
+  /*border-right: none;*/
+}
+/******************************************
+                HOME
+******************************************/
+#home {
+  background: url("../images/mozilla-images/background1.png");
+  background-size: cover;
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+}
+.statement {
+  max-width: 940px;
+  margin: auto;
+  padding: 8em 1em 4em 1em;
+}
+h1, h2 {
+  margin: 0;
+  color: #2762A9;
+}
+h1 {
+  font-size: 5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  /*padding-top: 1.75em;*/
+  line-height: 1.1em;
+  padding-bottom: 1.2em;
+}
+h2 {
+  font-size: 2.6em;
+  /*padding: 2em 6em;*/
+  /*REVISIT LINE-HEIGHT*/
+  line-height: 1.5em;
+}
+/******************************************
+                MISSION
+******************************************/
+.impact, .innovations {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+.impact {
+  color: #000;
+}
+.impact h3 {
+  color: #56565A;
+  font-weight: 600;
+}
+.impact p {
+  color: #75565A;
+  font-weight: 400;
+  font-size: 1.25em;
+  padding: 1em 2em;
+}
+.tools-list {
+  /*width: 400px;*/
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+}
+.tools-list span img {
+  width: 30px;
+}
+.tools-list li {
+  float: left;
+  width: 100%;
+  padding: .5em 0;
+}
+.tools-list li a {
+  padding-left: 25px;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #00A7E0;
+}
+.mission .mission-image-div img {
+  width: 100%;
+}
+.mission-image-div {
+  width: 200px;
+  margin: 0 auto;
+}
+.innovations {
+  background-color: #008B89;
+  color: #fff;
+}
+.innovations p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 1.25em;
+  padding: 1em 2em;
+}
+.gaming-list {
+  /*width: 400px;*/
+  width: 60%;
+  text-align: left;
+  margin: 0 auto;
+  background-color: #008B89;
+}
+.gaming-list span img {
+  width: 30px;
+}
+.gaming-list li {
+  float: left;
+  width: 100%;
+  padding: .5em 0;
+}
+.gaming-list li a {
+  padding-left: 25px;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: underline;
+  color: #FFF;
+}
+/******************************************
+                FOREST
+******************************************/
+.forest {
+  background: url("../images/mozilla-images/background2.png");
+  background-size: cover;
+  background-position: center;
+  /*padding: 4em;*/
+  color: #fff;
+  height: 100vh;
+}
+.mission .col-sm-6 {
+  padding: 0;
+}
+.forest .row, .forest-content {
+  height: inherit;
+}
+.forest-content {
+  position: relative;
+}
+.forest .mozilla-ball {
+  margin: 60px auto;
+}
+.forest img {
+  width: 130px;
+  /*padding: 4.25em 0 .5em 0;*/
+}
+.forest .potential {
+  margin: 310px auto 0 auto;
+  /*position: absolute;*/
+  /*bottom: 75px;*/
+  /*left: 27%;*/
+}
+.forest h4 {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.forest h5 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+.forest h5:last-child {
+  text-decoration: underline;
+  padding-top: 1em;
+}
+/******************************************
+                INFORMATION
+******************************************/
+.information {
+  background-color: #F5F5F5;
+  text-align: center;
+  color: #484848;
+  padding-top: 3.5em;
+  padding-bottom: 2em;
+}
+.info-content {
+  /*padding: 3.5em 1em 2em 1em;*/
+}
+.information img {
+  /*width: 95px;*/
+  height: 95px;
+}
+.information h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+.information p {
+  padding-top: 0;
+  font-size: 1.15em;
+  line-height: 1.6em;
+}
+/******************************************
+                SIGN-UP
+******************************************/
+.sign-up {
+  background-color: #D93A33;
+  color: #fff;
+  padding: 1.75em 0;
+}
+.love-content {
+  float: right;
+  max-width: 370px;
+}
+.love-news {
+  width: 232px;
+  padding: 0 0 0 10px;
+  /*width: 250px;*/
+  /*padding: 0 20px;*/
+}
+.love-news h3 {
+  font-size: 2.25em;
+  font-style: italic;
+  font-weight: 700;
+}
+.love-news p {
+  font-size: 1.25em;
+}
+.love-content img {
+  padding-top: 20px;
+  width: 120px;
+  height: inherit;
+}
+.love-content img, .love-news {
+  float: left;
+  display: inline-block;
+}
+.sign-up form {
+  max-width: 370px;
+  /*float: left;*/
+}
+form input {
+  border-radius: 3px;
+  padding-left: 20px;
+  font-size: 1.25em;
+  color: #A9A9A9;
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+form input:focus {
+  color: #000;
+}
+form button {
+  border: 2px solid #fff;
+  width: 100%;
+  background-color: transparent;
+  font-size: 1.5em;
+  padding: .3em 0;
+  margin-top: .75em;
+  margin-bottom: .25em;
+  border-radius: 3px;
+}
+form button a, footer {
+  color: #fff;
+  font-weight: 300;
+}
+
+/******************************************
+                FOOTER
+******************************************/
+.footer {
+  background-color: #666;
+  padding: 3.5em 0;
+}
+.footer a {
+  color: #2FC7D3;
+}
+.footer p {
+  color: #FDFDFD;
+}
+.footer-mozilla {
+  width: 325px;
+}
+.footer-mozilla p {
+  font-size: 1.25em;
+}
+.footer-mozilla img {
+  width: 100px;
+  margin-bottom: .75em;
+}
+.footer-list {
+  width: 225px;
+}
+.donate-list {
+  padding-bottom: 1.5em;
+}
+.footer-list li {
+  display: inline;
+}
+.footer-list li a {
+  font-size: 1.25em;
+}
+.footer .white-dot {
+  color: #EDEDED;
+}
+.footer-social-list li {
+  display: inline;
+}
+.footer-social-list a {
+  font-size: 1.25em;
+}
+.footer form {
+  padding-top: 1.5em;
+  max-width: 370px;
+}
+form label {
+  font-weight: 300;
+  font-size: 1.25em;
+}
+form select {
+  width: 200px;
+  height: 30px;
+  background-color: #F8F8F8;
+  font-size: 100%;
+  font-size: 1.75em;
+}
+/******************************************
+            MEDIA QUERIES
+******************************************/
+@media screen and (max-width: 768px) {
+  #home h1 {
+    font-size: 2.5em;
+  }
+  #home h2 {
+    font-size: 1.35em;
+  }
+  .forest .potential h5 {
+    font-size: 1.5em;
+  }
+  .info-content {
+    max-width: 425px;
+    margin: 1em auto 1.5em auto;
+  }
+  .tools-list, .gaming-list {
+    text-align: center;
+  }
+  .tools-list span img,
+  .gaming-list span img {
+    display: none;
+  }
+  .tools-list li > a,
+  .gaming-list li > a {
+    font-size: 1em;
+    padding-left: 0;
+  }
+  .sign-up .col-sm-6 {
+    width: 100%;
+  }
+  .love-content img {
+    margin: auto;
+  }
+  .sign-up form, .love-content,
+  .love-content img, .love-news {
+    float: none;
+  }
+  .sign-up form {
+    max-width: 100%;
+  }
+  .sign-up .love-content {
+    /*max-width: 100%;*/
+    max-width: 90%;
+    margin: 0 5%;
+    text-align: center;
+  }
+  .love-news {
+    width: 100%;
+  }
+  .love-content img, .love-news {
+    display: block;
+  }
+}
+@media (max-width: 1000px) {
+  h2 {
+    font-size: 2.1em;
+  }
+  .statement {
+    max-width: 750px;
+  }
+  h1 {
+    font-size: 3.5em;
+  }
+  .gaming-list, .tools-list {
+    width: 70%;
+  }
+  .tools-list li a,
+  .gaming-list li a {
+    font-size: 1.25em;
+  }
+}
+@media (min-width: 1000px) {
+  .footer-content {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1400px) {
+
+}
