@@ -446,7 +446,7 @@ form select {
     width: 700px;
   }
   .information-content {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
   }
   h2 {
