@@ -444,6 +444,10 @@ form select {
   nav .container-fluid {
     width: 700px;
   }
+  .information-content {
+    width: 750px;
+    margin: 0 auto;
+  }
   h2 {
     font-size: 2.1em;
   }
@@ -462,15 +466,21 @@ form select {
   }
 }
 @media (min-width: 1000px) {
+  .information-content,
+  nav .container-fluid {
+    width: 975px;
+    margin: 0 auto;
+  }
   .footer-content {
     width: 1000px;
     margin: 0 auto;
   }
-  nav .container-fluid {
-    width: 975px;
-  }
 }
 
 @media (min-width: 1400px) {
-
+  .information-content,
+  nav .container-fluid {
+    width: 1375px;
+    margin: 0 auto;
+  }
 }
