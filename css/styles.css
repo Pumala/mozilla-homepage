@@ -324,7 +324,7 @@ form button a, footer {
   color: #FDFDFD;
 }
 .footer-mozilla {
-  width: 325px;
+  max-width: 325px;
 }
 .footer-mozilla p {
   font-size: 1.25em;
